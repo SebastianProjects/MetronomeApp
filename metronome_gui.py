@@ -12,9 +12,9 @@ class MetronomeGUI():
     def __init__(self):
         
         self.__win = ctk.CTk()
-        self.__win.geometry("1040x280")
-        self.__win.minsize(1040, 280)
-        self.__win.maxsize(1040, 280)
+        self.__win.geometry("780x480")
+        self.__win.minsize(780, 480)
+        self.__win.maxsize(780, 480)
         self.__win.title("Metronome")
         
         self.__win.grid_columnconfigure(0, weight=1)
