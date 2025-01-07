@@ -83,8 +83,7 @@ class MetronomeGUI():
             self.__was_running = True
             self.stop_metronome()
         self.change_val()
-        
-    # TODO: Po pusteni slidera sa nespusti    
+          
     def on_slider_release(self, event):
         if self.__was_running:
             self.start_metronome()
